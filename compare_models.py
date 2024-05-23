@@ -2,12 +2,17 @@ import numpy as np
 import astropy.units as uu
 import astropy.constants as c
 
+# #########
+#  * * * * 
+# #########
 
+
+## molecular fraction models ##
 ### volumetric grid cells ###
 
-def p23(nh, z, u):
+def p24(nh, z, u):
 	"""
-	Return volumetric molecular fraction from Polzin et al. (2023)
+	Return volumetric molecular fraction from Polzin et al. (2024)
 
 	Parameters: 
 		nh (arr-like): neutral hydrogen number density (cm^-3)
@@ -204,9 +209,9 @@ def s14(nh, z, u, l, fc = 1):
 
 ### projected grid cells ###
 
-def p23_proj(nh, z, u, s):
+def p24_proj(nh, z, u, s):
 	"""
-	Return volumetric molecular fraction from Polzin et al. (2023)
+	Return volumetric molecular fraction from Polzin et al. (2024)
 
 	Parameters: 
 		nh (arr-like): neutral hydrogen column density (cm^-2)
