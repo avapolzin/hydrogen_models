@@ -1,14 +1,13 @@
 # H<sub>2</sub> models
 Models of the molecular gas fraction in galaxy + cosmo sims
 
-
 Storing models from:
-KMT09b
-GK11
-K13
-S14
-GD14
-BS16
-P23
+- [Krumholz, McKee, & Tumlinson (2009b)](https://ui.adsabs.harvard.edu/abs/2009ApJ...699..850K/abstract) -- KMT09b
+- [Gnedin & Kravtsov (2011)](https://ui.adsabs.harvard.edu/abs/2011ApJ...728...88G/abstract) -- GK11
+- [Krumholz (2013)](https://ui.adsabs.harvard.edu/abs/2013MNRAS.436.2747K/abstract) -- K13
+- [Sternberg et al. (2014)](https://ui.adsabs.harvard.edu/abs/2014ApJ...790...10S/abstract) -- S14
+- [Gnedin & Draine (2014)](https://ui.adsabs.harvard.edu/abs/2014ApJ...795...37G/abstract) -- GD14
+- [Bialy & Sternberg (2016)](https://ui.adsabs.harvard.edu/abs/2016ApJ...822...83B/abstract) -- BS16
+- [Polzin et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024ApJ...966..172P/abstract) -- P24
 
-Additionally, includes models for molecular hydrogen fraction on cell-by-cell basis -- models stored for use in C/C++ and Python.
+Includes models for molecular hydrogen fraction on cell-by-cell basis and projected on different scales; models are stored for use in C/C++ and Python.
