@@ -9,4 +9,6 @@ Storing models from:
 - [Gnedin & Draine (2014)](https://ui.adsabs.harvard.edu/abs/2014ApJ...795...37G/abstract) -- GD14
 - [Polzin et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024ApJ...966..172P/abstract) -- P24
 
-Includes models for molecular hydrogen fraction on cell-by-cell basis and projected on different scales; models are stored for use in C/C++ and Python.
+Includes models for molecular hydrogen fraction on cell-by-cell basis and projected on different scales; models are stored for use in Python.
+
+Will add C/C++ code in the near future.
