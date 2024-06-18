@@ -211,7 +211,7 @@ def s14(nh, z, u, l, fc = 1):
 
 def p24_proj(nh, z, u, s):
 	"""
-	Return volumetric molecular fraction from Polzin et al. (2024)
+	Return projected molecular fraction from Polzin et al. (2024)
 
 	Parameters: 
 		nh (arr-like): neutral hydrogen column density (cm^-2)
